@@ -35,7 +35,8 @@ module.exports = {
 			connection: null,
 			songs: [],
 			volume: 2,
-			playing: true
+			playing: true,
+			loop: false
 		};
 		message.client.queue.set(message.guild.id, queueConstruct);
 		queueConstruct.songs.push(song);
@@ -52,6 +53,11 @@ module.exports = {
 				.on('end', reason => {
 					if (reason === 'Stream is not generating quickly enough.') console.log('Song ended.');
 					else console.log(reason);
+					
+					if (queue.loop) {
+						queue.songs.push(queue.songs.shift());
+					}
+					
 					queue.songs.shift();
 					play(queue.songs[0]);
 				})
