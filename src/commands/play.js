@@ -56,6 +56,7 @@ module.exports = {
 					
 					if (queue.loop) {
 						queue.songs.push(queue.songs.shift());
+						return play(queue.songs[0]);
 					}
 					
 					queue.songs.shift();
