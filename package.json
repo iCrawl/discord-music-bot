@@ -14,7 +14,7 @@
 		"ytdl-core-discord": "amishshah/ytdl-core-discord"
 	},
 	"devDependencies": {
-		"eslint": "^5.14.0",
+		"eslint": "^6.0.0",
 		"eslint-config-aqua": "^4.4.1"
 	},
 	"optionalDependencies": {
