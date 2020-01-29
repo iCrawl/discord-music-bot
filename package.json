@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^6.0.0",
-		"eslint-config-aqua": "^4.4.1"
+		"eslint-config-aqua": "^7.0.0"
 	},
 	"optionalDependencies": {
 		"@discordjs/uws": "^11.149.1",
