@@ -2,7 +2,7 @@ dependencies:
   discord.js: github.com/discordjs/discord.js/2d67fbb24ceb140b1ec130d6722eda51015ef725_149463a4eca34a8dcbd1e443cb272857
   dotenv: 8.2.0
   opusscript: 0.0.7
-  ytdl-core: 2.0.0
+  ytdl-core: 2.0.1
 devDependencies:
   eslint: 6.8.0
   eslint-config-aqua: 7.2.1_eslint@6.8.0
@@ -776,7 +776,7 @@ packages:
       integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
   /m3u8stream/0.6.5:
     dependencies:
-      miniget: 1.6.1
+      miniget: 1.7.0
       sax: 1.2.4
     dev: false
     engines:
@@ -803,12 +803,12 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
-  /miniget/1.6.1:
+  /miniget/1.7.0:
     dev: false
     engines:
-      node: '>=8'
+      node: '>=10'
     resolution:
-      integrity: sha512-I5oBwZmcaOuJrjQn7lpS29HM+aAZDbzKbX5ouxVyhFYdg6fA6YKOTwOCgzZQwlHuMek3FlCxz6eNrd4pOXbwOA==
+      integrity: sha512-yrgaDSMRzrfYTkudB4Y6xK8pCb7oAH2bvfv6iPY2m6CedZfs9yK4b/ofh0Vzv08hCYXH/HHkoS8an6fkWtOAQA==
   /minimatch/3.0.4:
     dependencies:
       brace-expansion: 1.1.11
@@ -1408,17 +1408,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
-  /ytdl-core/2.0.0:
+  /ytdl-core/2.0.1:
     dependencies:
       html-entities: 1.2.1
       m3u8stream: 0.6.5
-      miniget: 1.6.1
+      miniget: 1.7.0
       sax: 1.2.4
     dev: false
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-cYdcxXhgldJeOaWaN/mxT+j07XFZdR+qUqfz5eddx4WcyWCha66FfJvmQBOPqyQo1TCyj/IkgZqdGADWlNdTcQ==
+      integrity: sha512-PZBcVzQpkBxi9OQh9I4QIrYNmkbM/zh4QJQuxE8I6RojLUVYkkps5iLYquE3H+pwmBXtEXQMDJfVRajgdiz+iA==
   /zlib-sync/0.1.6:
     dependencies:
       nan: 2.14.0
@@ -1477,6 +1477,7 @@ packages:
       zlib-sync:
         optional: true
     resolution:
+      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/discordjs/discord.js/tar.gz/2d67fbb24ceb140b1ec130d6722eda51015ef725'
     version: 12.0.0-dev
 specifiers:
@@ -1487,5 +1488,5 @@ specifiers:
   eslint: ^6.8.0
   eslint-config-aqua: ^7.2.1
   opusscript: ^0.0.7
-  ytdl-core: 2.0.0
+  ytdl-core: 2.0.1
   zlib-sync: ^0.1.6
