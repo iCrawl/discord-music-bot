@@ -15,13 +15,13 @@
 		"ytdl-core": "^3.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^7.1.0",
+		"eslint": "^7.4.0",
 		"eslint-config-aqua": "^7.2.4"
 	},
 	"optionalDependencies": {
 		"@discordjs/opus": "^0.3.2",
 		"erlpack": "github:discord/erlpack",
-		"zlib-sync": "^0.1.6"
+		"zlib-sync": "^0.1.7"
 	},
 	"eslintConfig": {
 		"extends": "aqua/node"
