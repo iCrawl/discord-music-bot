@@ -21,7 +21,7 @@
 	"optionalDependencies": {
 		"@discordjs/opus": "^0.3.2",
 		"erlpack": "github:discord/erlpack",
-		"zlib-sync": "^0.1.6"
+		"zlib-sync": "^0.1.7"
 	},
 	"eslintConfig": {
 		"extends": "aqua/node"
