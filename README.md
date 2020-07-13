@@ -13,6 +13,8 @@ yarn
 
 Copy/Rename the `.env_example` to `.env` and fill out the values:
 
+[![Run on Repl.it](https://repl.it/badge/github/iCrawl/discord-music-bot)](https://repl.it/github/iCrawl/discord-music-bot)
+
 ```
 DISCORD_TOKEN=
 DISCORD_PREFIX=
