@@ -12,7 +12,7 @@
 	"dependencies": {
 		"discord.js": "^12.4.1",
 		"dotenv": "^8.2.0",
-		"ytdl-core": "^4.0.4"
+		"ytdl-core": "^4.0.3"
 	},
 	"devDependencies": {
 		"eslint": "^7.13.0",
