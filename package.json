@@ -15,7 +15,7 @@
 		"ytdl-core": "^4.2.1"
 	},
 	"devDependencies": {
-		"eslint": "^7.16.0",
+		"eslint": "^7.18.0",
 		"eslint-config-aqua": "^7.3.0"
 	},
 	"optionalDependencies": {
