@@ -19,7 +19,7 @@
 		"eslint-config-aqua": "^7.3.0"
 	},
 	"optionalDependencies": {
-		"@discordjs/opus": "^0.3.3",
+		"@discordjs/opus": "^0.4.0",
 		"erlpack": "github:discord/erlpack",
 		"zlib-sync": "^0.1.7"
 	},
