@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^7.22.0",
-		"eslint-config-aqua": "^8.0.0"
+		"eslint-config-aqua": "^8.1.2"
 	},
 	"optionalDependencies": {
 		"@discordjs/opus": "^0.4.0",
