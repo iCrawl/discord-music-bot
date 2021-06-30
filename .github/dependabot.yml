@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "15:00"
+    timezone: Europe/Vienna
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: eslint-config-aqua
+    versions:
+    - 8.1.0
+    - 8.1.1
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.20.0
+    - 7.21.0
